@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283BEC601C9F44DE005DA5A8 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283BEC5F1C9F44DE005DA5A8 /* HistoryViewController.swift */; };
+		283BEC621C9F7D61005DA5A8 /* RPSMatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283BEC611C9F7D61005DA5A8 /* RPSMatchModel.swift */; };
 		288A27281C82924B00A5E389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288A27271C82924B00A5E389 /* AppDelegate.swift */; };
 		288A272A1C82924B00A5E389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288A27291C82924B00A5E389 /* ViewController.swift */; };
 		288A272D1C82924B00A5E389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288A272B1C82924B00A5E389 /* Main.storyboard */; };
 		288A272F1C82924B00A5E389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288A272E1C82924B00A5E389 /* Assets.xcassets */; };
 		288A27321C82924B00A5E389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288A27301C82924B00A5E389 /* LaunchScreen.storyboard */; };
+		288A273A1C82A06100A5E389 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288A27391C82A06100A5E389 /* ResultScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283BEC5F1C9F44DE005DA5A8 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		283BEC611C9F7D61005DA5A8 /* RPSMatchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSMatchModel.swift; sourceTree = "<group>"; };
 		288A27241C82924B00A5E389 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288A27271C82924B00A5E389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		288A27291C82924B00A5E389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		288A272E1C82924B00A5E389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		288A27311C82924B00A5E389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		288A27331C82924B00A5E389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288A27391C82A06100A5E389 /* ResultScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				288A27271C82924B00A5E389 /* AppDelegate.swift */,
 				288A27291C82924B00A5E389 /* ViewController.swift */,
+				283BEC5F1C9F44DE005DA5A8 /* HistoryViewController.swift */,
+				283BEC611C9F7D61005DA5A8 /* RPSMatchModel.swift */,
+				288A27391C82A06100A5E389 /* ResultScreen.swift */,
 				288A272B1C82924B00A5E389 /* Main.storyboard */,
 				288A272E1C82924B00A5E389 /* Assets.xcassets */,
 				288A27301C82924B00A5E389 /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283BEC621C9F7D61005DA5A8 /* RPSMatchModel.swift in Sources */,
 				288A272A1C82924B00A5E389 /* ViewController.swift in Sources */,
+				288A273A1C82A06100A5E389 /* ResultScreen.swift in Sources */,
 				288A27281C82924B00A5E389 /* AppDelegate.swift in Sources */,
+				283BEC601C9F44DE005DA5A8 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 				288A27381C82924B00A5E389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
